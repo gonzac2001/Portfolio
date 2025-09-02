@@ -1,0 +1,103 @@
+
+body {
+  background-color: rgb(176, 183, 252);
+}
+
+#titulo-principal {
+  background-color: rgb(216, 196, 189);
+  border: 3px solid black; 
+  padding: 10px;           
+  
+}
+
+#main-header {
+  text-align: center;
+  padding: 1rem;
+}
+
+
+#main-footer {
+  text-align: center;
+  padding: 0.5rem;
+  margin-top: 2rem;
+}
+
+
+.contenedor {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.presentacion {
+  margin-bottom: 2rem;
+}
+
+.texto-destacado {
+  font-size: 1.1rem;
+  font-style: italic;
+}
+
+.lista-proyectos {
+  list-style-type: none;
+  padding: 0;
+}
+
+.item-proyecto {
+  margin: 0.5rem 0;
+}
+
+#foto-personal {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+#contenedor-img {
+  text-align: center;
+}
+
+#email {
+  position: relative; left: 17px ;
+}
+
+.tel {
+  position: relative; left: 17px ;
+}
+
+.caja {
+      width: 200px;
+      height: 150px;
+      background-color: lightblue;
+      border: 2px solid blue;
+      padding: 20px;
+      margin: 30px;
+      border-radius: 10px;
+      box-shadow: 4px 4px 10px rgba(0,0,0,0.2);
+    }
+
+
+/* codigo para hacer la web mas responsiva*/ 
+
+/* Para celulares chicos */
+@media (max-width: 600px) {
+  .contenedor {
+    max-width: 100%;
+    padding: 0.5rem;
+  }
+  #foto-personal {
+    width: 150px;
+    margin: 1rem auto;
+  }
+  form {
+    font-size: 0.9rem;
+  }
+}
+
+/* Para tablets */
+@media (max-width: 1024px) {
+  #foto-personal {
+    width: 180px;
+  }
+}
